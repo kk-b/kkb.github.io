@@ -13,6 +13,7 @@ function Home() {
         <p>
           <h1>kyle khuong-bui.</h1>
           <code><Typical steps = {['welcome to my page.']} loop={1} wrapper="p"/></code>
+          <h3>this is still a work in progress. :DD</h3>
         </p>
       </header>
     </div>
