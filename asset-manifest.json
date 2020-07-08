@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.18f59e68.chunk.css",
-    "main.js": "/portfolio/static/js/main.b074f2b5.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b074f2b5.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.be79a171.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.be79a171.js.map",
-    "static/js/2.9427a269.chunk.js": "/portfolio/static/js/2.9427a269.chunk.js",
-    "static/js/2.9427a269.chunk.js.map": "/portfolio/static/js/2.9427a269.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.44e3109e79457af4a907643ee2fb8f22.js": "/portfolio/precache-manifest.44e3109e79457af4a907643ee2fb8f22.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.18f59e68.chunk.css.map": "/portfolio/static/css/main.18f59e68.chunk.css.map",
-    "static/js/2.9427a269.chunk.js.LICENSE.txt": "/portfolio/static/js/2.9427a269.chunk.js.LICENSE.txt",
-    "static/media/dogg.png": "/portfolio/static/media/dogg.61a419b4.png"
+    "main.css": "/kylekb.dev/static/css/main.e0b31d37.chunk.css",
+    "main.js": "/kylekb.dev/static/js/main.0cd08ed6.chunk.js",
+    "main.js.map": "/kylekb.dev/static/js/main.0cd08ed6.chunk.js.map",
+    "runtime-main.js": "/kylekb.dev/static/js/runtime-main.ce73d6a9.js",
+    "runtime-main.js.map": "/kylekb.dev/static/js/runtime-main.ce73d6a9.js.map",
+    "static/js/2.4ee01477.chunk.js": "/kylekb.dev/static/js/2.4ee01477.chunk.js",
+    "static/js/2.4ee01477.chunk.js.map": "/kylekb.dev/static/js/2.4ee01477.chunk.js.map",
+    "index.html": "/kylekb.dev/index.html",
+    "precache-manifest.ace5c438b6aca453141676cd1944a521.js": "/kylekb.dev/precache-manifest.ace5c438b6aca453141676cd1944a521.js",
+    "service-worker.js": "/kylekb.dev/service-worker.js",
+    "static/css/main.e0b31d37.chunk.css.map": "/kylekb.dev/static/css/main.e0b31d37.chunk.css.map",
+    "static/js/2.4ee01477.chunk.js.LICENSE.txt": "/kylekb.dev/static/js/2.4ee01477.chunk.js.LICENSE.txt",
+    "static/media/dogg.png": "/kylekb.dev/static/media/dogg.61a419b4.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.be79a171.js",
-    "static/js/2.9427a269.chunk.js",
-    "static/css/main.18f59e68.chunk.css",
-    "static/js/main.b074f2b5.chunk.js"
+    "static/js/runtime-main.ce73d6a9.js",
+    "static/js/2.4ee01477.chunk.js",
+    "static/css/main.e0b31d37.chunk.css",
+    "static/js/main.0cd08ed6.chunk.js"
   ]
 }
