@@ -3,7 +3,6 @@
   }
 
 .basic-header {
-    background-color: #222831 ;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -29,6 +28,9 @@
   display:flex;
 }
 
+body{
+  background-color: #222831 ;
+}
 
 li {
   align-items: center;

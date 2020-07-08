@@ -1,7 +1,7 @@
 import React from 'react';
 import dog from './dogg.png';
 import './theme.css';
-import Typical from 'react-typical';
+
 
 function About() {
   return (
