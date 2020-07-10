@@ -12,7 +12,7 @@ function Home() {
         <header className="basic-header">
           <p>
             <h1>kyle khuong-bui.</h1>
-            <code><Typical steps = {['welcome to my page.', 2000, 'this is a work in progress...']} loop={1} wrapper="p"/></code>
+            <code><Typical steps = {['welcome to my page.', 2000, 'this is a work in progress....']} loop={1} wrapper="p"/></code>
             <div className="social">
               <ul>
                 <li>
@@ -28,7 +28,7 @@ function Home() {
             </div>
           </p>
         </header>
-      </div>
+      </div>x`
     </body>
   );
 }
