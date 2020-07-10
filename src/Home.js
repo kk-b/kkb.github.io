@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import './theme.css';
 import Typical from 'react-typical';
+import About from './About';
 
 
 function Home() {
@@ -11,7 +12,7 @@ function Home() {
         <header className="basic-header">
           <p>
             <h1>kyle khuong-bui.</h1>
-            <code><Typical steps = {['welcome to my page.', 2000, 'this is a work in progress... :DD']} loop={1} wrapper="p"/></code>
+            <code><Typical steps = {['welcome to my page.', 2000, 'this is a work in progress...']} loop={1} wrapper="p"/></code>
             <div className="social">
               <ul>
                 <li>
