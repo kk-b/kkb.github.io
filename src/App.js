@@ -14,7 +14,6 @@ import './theme.css';
 function App() {
   return (
     <div className="App">
-      <navBar />
       <Route exact path = "/" component={Home}/>
       <Route exact path = "/about" component={About}/>
       <Route exact path = "/projects" component={Projects}/>
