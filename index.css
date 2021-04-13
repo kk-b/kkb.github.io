@@ -1,0 +1,32 @@
+
+#icon {
+    margin-top: 5%;
+    float: left;
+}
+
+.header{
+    height: 200px;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button{
+    border-radius: 6px;
+    border: 2px solid #165AA4;
+    padding: 15px 35px;
+    background-color: white;
+    color: #165AA4;
+    font-family: Ubuntu Mono;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+}
+
+
+.header button {
+    float: right;
+    margin-top: 5%;
+}
+
