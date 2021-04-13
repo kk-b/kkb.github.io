@@ -1,4 +1,3 @@
 ## Welcome!
 
-wassup 
-this is where I will be attempting to build my portfolio!
+ayo! this is my portfolio repository. this is a huge WIP :) 
