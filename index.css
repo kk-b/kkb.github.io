@@ -23,10 +23,10 @@
 
 .button{
     border-radius: 6px;
-    border: 2px solid #165AA4;
+    border: 2px solid #8189c6;
     padding: 15px 35px;
     background-color: white;
-    color: #165AA4;
+    color: #8189c6;
     font-family: Ubuntu Mono;
     font-style: normal;
     font-weight: normal;
@@ -35,14 +35,14 @@
 }
 
 .button:hover{
-    background-color: #165AA4;
+    background-color: #8189c6;
     color: white;
     cursor: pointer;
 }
 
 h2{
     font-family: Ubuntu Mono;
-    color: #165AA4;
+    color: #8189c6;
 }
 
 
@@ -64,6 +64,8 @@ h2{
 #IntroBio{
     font-family: Poppins;
     width: 95%; 
+    font-size:large;
+    color: #757575;
 }
 
 .intro button{
@@ -89,6 +91,7 @@ h2{
     font-family: Poppins;
     width: 60%;
     float: left;
+    color: #757575;
 }
 
 .pfp{
@@ -96,7 +99,7 @@ h2{
     width: 316px;
     float: right;
 
-    box-shadow: 3rem 25px #165AA4;
+    box-shadow: 3rem 25px #8189c6;
 }
 
 
@@ -183,7 +186,7 @@ h2{
     top: 16px;
     text-align: right;
     right: 16px;
-    color: #165AA4;
+    color: #8189c6;
     font-family: Poppins;
 }
 
@@ -207,7 +210,7 @@ h2{
     position: absolute;
     bottom: 20px;
     font-family: Poppins;
-    color: #165AA4;
+    color: #8189c6;
     text-decoration: underline;
 }
 
@@ -233,7 +236,7 @@ h2{
 }
 
 a:visited{
-    color: #165AA4;
+    color: #8189c6;
 }
 
 
