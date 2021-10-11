@@ -1,36 +1,58 @@
+<!doctype html>
 <html lang="en">
+<!--
+WRITTEN BY: Kyle Khuong-Bui
+EMAIL: kyle.bui20@gmail.com
+-->
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel='stylesheet' href='//fonts.googleapis.com/css?family=Ubuntu Mono' type='text/css' /> 
-    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins' type='text/css' />
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-uWxY/CJNBR+1zjPWmfnSnVxwRheevXITnMqoEIeG1LJrdI0GlVs/9cVSyPYXdcSF" crossorigin="anonymous">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu+Mono' type='text/css'/> 
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins' type='text/css'/>
     <link rel="stylesheet" href="index.css">
     <link rel="shortcut icon" href="favicon.ico">
+    <meta name="author" content="Kyle Khuong-Bui">
+    <meta name="description" content="Kyle Khuong-Bui's Portfolio">
     <title>Kyle Khuong-Bui</title>
 </head>
 <body>
     <div class="header">
-        <svg id="icon" width="91" height="45" viewBox="0 0 91 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg id="icon-sm" viewBox="0 0 91 45" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M16.7861 0L29.8844 19.5127V0H44V45H29.8844V26.0593L16.9769 45H1.01734L16.5318 23.4534L0 0H16.7861Z" fill="#8189c6"/>
             <path d="M82.3547 21.928C85.087 22.5636 87.2003 23.8771 88.6946 25.8686C90.2315 27.8178 91 30.0847 91 32.6695C91 36.6102 89.6765 39.661 87.0296 41.822C84.4253 43.9407 80.6683 45 75.7586 45H52V0H75.1182C79.7291 0 83.358 0.995763 86.0049 2.98729C88.6519 4.97881 89.9754 7.88135 89.9754 11.6949C89.9754 14.322 89.2709 16.5466 87.8621 18.3686C86.4959 20.1483 84.6601 21.3347 82.3547 21.928ZM66.2167 17.5424H71.7241C73.0049 17.5424 73.9442 17.2881 74.5419 16.7797C75.1823 16.2712 75.5025 15.4873 75.5025 14.428C75.5025 13.3263 75.1823 12.5212 74.5419 12.0127C73.9442 11.4619 73.0049 11.1864 71.7241 11.1864H66.2167V17.5424ZM72.6847 33.6864C73.9655 33.6864 74.9048 33.4534 75.5025 32.9873C76.1429 32.4788 76.4631 31.6737 76.4631 30.572C76.4631 28.411 75.2036 27.3305 72.6847 27.3305H66.2167V33.6864H72.6847Z" fill="#8189c6"/>
-            </svg>
-        <a href="KyleKhuong-Bui_Resume.pdf" target="_blank"><button class="button">resume</button></a>
+        </svg>
+
+        <svg id="icon-lg" width="91" height="45" viewBox="0 0 91 45" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.7861 0L29.8844 19.5127V0H44V45H29.8844V26.0593L16.9769 45H1.01734L16.5318 23.4534L0 0H16.7861Z" fill="#8189c6"/>
+            <path d="M82.3547 21.928C85.087 22.5636 87.2003 23.8771 88.6946 25.8686C90.2315 27.8178 91 30.0847 91 32.6695C91 36.6102 89.6765 39.661 87.0296 41.822C84.4253 43.9407 80.6683 45 75.7586 45H52V0H75.1182C79.7291 0 83.358 0.995763 86.0049 2.98729C88.6519 4.97881 89.9754 7.88135 89.9754 11.6949C89.9754 14.322 89.2709 16.5466 87.8621 18.3686C86.4959 20.1483 84.6601 21.3347 82.3547 21.928ZM66.2167 17.5424H71.7241C73.0049 17.5424 73.9442 17.2881 74.5419 16.7797C75.1823 16.2712 75.5025 15.4873 75.5025 14.428C75.5025 13.3263 75.1823 12.5212 74.5419 12.0127C73.9442 11.4619 73.0049 11.1864 71.7241 11.1864H66.2167V17.5424ZM72.6847 33.6864C73.9655 33.6864 74.9048 33.4534 75.5025 32.9873C76.1429 32.4788 76.4631 31.6737 76.4631 30.572C76.4631 28.411 75.2036 27.3305 72.6847 27.3305H66.2167V33.6864H72.6847Z" fill="#8189c6"/>
+        </svg>
+        
+        
+        <a href="KyleKhuong-Bui_Resume.pdf" target="_blank" class="button" id="resume">resume</a>
+        
     </div>    
 
     <div class="info">
         <h2>hello world!</h2>
         <h1 id="IntroName">I'm Kyle Khuong-Bui.</h1>
-        <p id="IntroBio">I'm an incoming fourth-year computer science student from UC Irvine. I have a passion
-            for learning new things and tackling new challenges. Currently a Software Engineer intern at Sencha Credit.
+        <p id="IntroNameP">I'm Kyle Khuong-Bui.</p>
+        <p id="IntroBio">I'm a fourth-year computer science student from UC Irvine graduating June 2022. I have a passion
+            for learning new things and tackling new challenges. Previously a Software Engineer Intern at Sencha Credit.
         </p>
-        <a href="mailto:kyle.bui20@gmail.com"><button class="button" style="margin-top: 3%">let's talk :)</button></a>
+        <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank" class="button" style="margin-top: 3%;">let's talk :)</a>
+        <a href="KyleKhuong-Bui_Resume.pdf" target="_blank" class="button" id="resume-mobile">resume</a>
+    </div>
+    <div class="pfp-mobile">
+        <img class="pfp" src="me.jpg" alt="Kyle Khuong-Bui">
     </div>
     <div class="body2">
         <div class="aboutMe">
             <h2><svg class="triangle" width="18" height="32" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18 11L0 21.3923L0 0.607696L18 11Z" fill="#8189c6"/>
-                </svg>&nbsp;about me. <img class="pfp" src="me.jpg" alt="profile picture"></h2>
+                 </svg>&nbsp;about me. <img class="pfp" id="pfp-desktop" src="me.jpg" alt="profile picture"></h2> 
             <p> I'm an aspiring software engineer who is passionate about problem-solving. From the content in my courses to viewing other people's work, I'm always fascinated about how things work and hope to learn more about what they do and do it myself. </p> 
                 
             <p>I grew up in Los Angeles, California. Some of the things I love doing around here is trying out food from local businesses and visiting pretty views near here.
@@ -44,8 +66,8 @@
                 <path d="M18 11L0 21.3923L0 0.607696L18 11Z" fill="#8189c6"/>
                 </svg>&nbsp;skills.</h2>
             <div class="row">
-                <div class="column">
-                    <h4>LANGUAGES</h4>
+                <div class="column col-sm-3">
+                    <h3>LANGUAGES</h3>
                     <p>Python</p>
                     <p>C/C++</p>
                     <p>Java</p>
@@ -53,21 +75,21 @@
                     <p>SQL</p> 
                     <p>Swift</p> 
                     <p>HTML/CSS</p>
-                    
-
 
                 </div>
-                <div class="column">
-                    <h4>FRAMEWORKS & TOOLS</h4>
-                    <p>React/React-Native</p>
+                <div class="column col-sm-3">
+                    <h3>FRAMEWORKS & TOOLS</h3>
+                    <p>React/React Native</p>
                     <p>Flask</p>
                     <p>Git</p>
+                    <p>NodeJS</p>
                 </div>
-                <div class="column">
-                    <h4>TECHNOLOGIES</h4>
-                    <p>MongoDB</p>
-                    <p>MySQL</p>
+                <div class="column col-sm-6">
+                    <h3>TECHNOLOGIES</h3>
                     <p>AWS</p>
+                    <p>Google Cloud Platform</p>
+                    <p>MySQL</p>
+                    <p>MongoDB</p>
                 </div>
             </div>
         </div>
@@ -79,35 +101,38 @@
             <div class="experience">
                 <p>
                     <span class="workTitle">SENCHA CREDIT</span>
-                    <span style="float: right;">Jan 2021 - Present</span>
+                    <span style="float: right;" class="noShowMobile">Jan 2021 - Present</span>
                 </p>
-                <h4>Software Engineer Intern</h4>
-                <p>Focused on backend mobile development in React-Native</p>
+                <p class="noShowDesktop">Jan 2021 - Present</p>
+                <h3>Software Engineer Intern</h3>
+                <p>Backend mobile development in React Native</p>
             </div>
             <div class="experience">
                 <p>
-                    <span class="workTitle">UC IRVINE - MERAGE TECH</span>
-                    <span style="float: right;">Apr 2019 - Sep 2020</span>
+                    <span class="workTitle">MERAGETECH @ UC IRVINE</span>
+                    <span style="float: right;" class="noShowMobile">Apr 2019 - Sep 2020</span>
                 </p>
-                <h4>Technical Computing Consultant</h4>
+                <p class="noShowDesktop">Apr 2019 - Sep 2020</p>
+                <h3>Technical Computing Consultant</h3>
                 <p>Collaborate with full-time employees at the Paul Merage School of Business to maintain classrooms and provide technical support for faculty, staff, and students.</p>
             </div>
             <div class="experience">
                 <p>
                     <span class="workTitle">NICK'S INCOME TAX</span>
-                    <span style="float: right;">Jan 2018 - Present</span>
+                    <span style="float: right;" class="noShowMobile">Jan 2018 - Aug 2020</span>
                 </p>
-                <h4>IT Operations</h4>
+                <p class="noShowDesktop">Jan 2018 - Aug 2020</p>
+                <h3>IT Operations</h3>
                 <p>Handle technical infrastructure and accountant's personal hardware concerns</p> 
             </div>
         </div>
 
         <div class="projects">
-            <h2><svg class="triangle" width="18" height="32" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <h2 style="margin-bottom: 25px;"><svg class="triangle" width="18" height="32" viewBox="0 0 18 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M18 11L0 21.3923L0 0.607696L18 11Z" fill="#8189c6"/>
                 </svg>&nbsp;projects.</h2>
-            <div id="temp">
-                <div class="project" id="box1">
+            <div class="row">
+                <div class="project col-sm-1 col-lg-4" id="box1">
                     <div class="projectTech">
                         Python
                     </div>
@@ -127,7 +152,7 @@
                         <a href="https://github.com/kk-b/expensesCalc" target="_blank">Go to project ></a>
                     </span>    
                 </div>
-                <div class="project" id="box2">
+                <div class="project col-sm-1 col-lg-4" id="box2">
                     <div class="projectTech">
                         Python, Flask, Twilio
                     </div>
@@ -146,7 +171,7 @@
                         <a href="https://github.com/kk-b/mediText" target="_blank">Go to project ></a>
                     </span>
                 </div>
-                <div class="project" id="box3">
+                <div class="project col-sm-1 col-lg-4" id="box3">
                     <div class="projectTech">
                         Swift
                     </div>
@@ -171,27 +196,45 @@
 
     </div>
 
-
-    <div class="footer">
-        <div class="footerSocials">
-            <a href="https://github.com/kk-b" target="_blank"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <footer>
+        <div class="footerSocials-mobile">
+            <a href="https://github.com/kk-b" target="_blank" title="github"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM29.068 39.18C28.258 39.336 28 38.838 28 38.412V34.022C28 32.528 27.476 31.556 26.9 31.06C30.464 30.664 34.208 29.31 34.208 23.166C34.208 21.418 33.584 19.99 32.562 18.872C32.726 18.468 33.274 16.84 32.404 14.638C32.404 14.638 31.062 14.208 28.008 16.278C26.728 15.918 25.36 15.744 24 15.736C22.64 15.742 21.272 15.918 19.994 16.274C16.938 14.204 15.594 14.634 15.594 14.634C14.726 16.838 15.274 18.464 15.44 18.87C14.416 19.99 13.792 21.416 13.792 23.164C13.792 29.292 17.526 30.666 21.082 31.072C20.624 31.472 20.21 32.176 20.066 33.212C19.152 33.62 16.838 34.326 15.41 31.88C15.41 31.88 14.564 30.344 12.956 30.23C12.956 30.23 11.396 30.21 12.846 31.204C12.846 31.204 13.896 31.696 14.624 33.544C14.624 33.544 15.55 36.4 20 35.432V38.41C20 38.832 19.742 39.328 18.944 39.18C12.584 37.066 8 31.068 8 24C8 15.162 15.164 8 24 8C32.836 8 40 15.162 40 24C40 31.066 35.422 37.062 29.068 39.18Z" fill="#353637"/>
                 </svg>
             </a>
-            <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank"><svg style="padding-left: 32px;"width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            &nbsp;
+            &nbsp;
+            <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank" title="linkedin"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="#353637"/>
+                </svg>     
+            </a>
+            <!-- <p>Designed by <a href="https://www.linkedin.com/in/-sandy-nguyen/" target="_blank">Sandy Nguyen</a></p> -->
+            <!-- <p>Built by <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank">me</a></p> -->
+            <p class="noShowDesktop">Made with 💙</p>
+        </div>
+                            
+        
+        
+        <div class="footerSocials-desktop">
+            <a href="https://github.com/kk-b" target="_blank" title="github"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M38 0H10C4.478 0 0 4.478 0 10V38C0 43.522 4.478 48 10 48H38C43.524 48 48 43.522 48 38V10C48 4.478 43.524 0 38 0ZM29.068 39.18C28.258 39.336 28 38.838 28 38.412V34.022C28 32.528 27.476 31.556 26.9 31.06C30.464 30.664 34.208 29.31 34.208 23.166C34.208 21.418 33.584 19.99 32.562 18.872C32.726 18.468 33.274 16.84 32.404 14.638C32.404 14.638 31.062 14.208 28.008 16.278C26.728 15.918 25.36 15.744 24 15.736C22.64 15.742 21.272 15.918 19.994 16.274C16.938 14.204 15.594 14.634 15.594 14.634C14.726 16.838 15.274 18.464 15.44 18.87C14.416 19.99 13.792 21.416 13.792 23.164C13.792 29.292 17.526 30.666 21.082 31.072C20.624 31.472 20.21 32.176 20.066 33.212C19.152 33.62 16.838 34.326 15.41 31.88C15.41 31.88 14.564 30.344 12.956 30.23C12.956 30.23 11.396 30.21 12.846 31.204C12.846 31.204 13.896 31.696 14.624 33.544C14.624 33.544 15.55 36.4 20 35.432V38.41C20 38.832 19.742 39.328 18.944 39.18C12.584 37.066 8 31.068 8 24C8 15.162 15.164 8 24 8C32.836 8 40 15.162 40 24C40 31.066 35.422 37.062 29.068 39.18Z" fill="#353637"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank" title="linkedin"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M44.4469 0H3.54375C1.58437 0 0 1.54688 0 3.45938V44.5312C0 46.4437 1.58437 48 3.54375 48H44.4469C46.4062 48 48 46.4438 48 44.5406V3.45938C48 1.54688 46.4062 0 44.4469 0ZM14.2406 40.9031H7.11563V17.9906H14.2406V40.9031ZM10.6781 14.8688C8.39062 14.8688 6.54375 13.0219 6.54375 10.7437C6.54375 8.46562 8.39062 6.61875 10.6781 6.61875C12.9563 6.61875 14.8031 8.46562 14.8031 10.7437C14.8031 13.0125 12.9563 14.8688 10.6781 14.8688ZM40.9031 40.9031H33.7875V29.7656C33.7875 27.1125 33.7406 23.6906 30.0844 23.6906C26.3812 23.6906 25.8187 26.5875 25.8187 29.5781V40.9031H18.7125V17.9906H25.5375V21.1219H25.6312C26.5781 19.3219 28.9031 17.4188 32.3625 17.4188C39.5719 17.4188 40.9031 22.1625 40.9031 28.3313V40.9031Z" fill="#353637"/>
                 </svg>     
             </a>
         </div>
                             
         <div class="footerText">
-            <p>Designed by <a href="https://www.linkedin.com/in/-sandy-nguyen/" target="_blank">Sandy Nguyen</a></p>
-            <p>Built by <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank">me</a></p>
-            <p>Made with 💙</p>
+            <!-- <p>Designed by <a href="https://www.linkedin.com/in/-sandy-nguyen/" target="_blank">Sandy Nguyen</a></p> -->
+            <!-- <p>Built by <a href="https://www.linkedin.com/in/kyle-khuong-bui/" target="_blank">me</a></p> -->
+            <p class="noShowMobile">Made with 💙</p>
         </div>
-    </div>
+        
+    </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous"></script>
 
 
 </body>
